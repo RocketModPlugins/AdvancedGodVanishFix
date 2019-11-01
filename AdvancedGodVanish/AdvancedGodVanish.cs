@@ -14,7 +14,7 @@ namespace AdvancedGodVanish
 
 		public string Creator = " educatalan02";
 
-		public string Version = "1.1";
+		public string Version = "1.2";
 
         public static string Discord = "https://discord.gg/Q89FmUk";
 
@@ -26,38 +26,40 @@ namespace AdvancedGodVanish
 		{
 			get
 			{
-				TranslationList translationList = new TranslationList();
-				translationList.Add("Log_God_Turned_On", " has turned on the god mode for the player: ");
-				translationList.Add("Log_God_Turned_Off", " has turned off the god mode for the player: ");
-				translationList.Add("Log_Vanish_Turned_On", " has turned on the vanish mode for the player: ");
-				translationList.Add("Log_Vanish_Turned_Off", " has turned off the vanish mode for the player: ");
-				translationList.Add("God_on_Public", " has turned on the god mode.");
-				translationList.Add("God_off_Public", "  has turned off the god mode.");
-				translationList.Add("Vanish_on_Public", " has turned on the vanish mode.");
-				translationList.Add("Vanish_off_Public", " has turned off the vanish mode.");
-				translationList.Add("God_on_Private", "You have turned on the god mode!");
-				translationList.Add("God_off_Private", "You have turned off the god mode!");
-				translationList.Add("Vanish_on_Private", "You have turned on the vanish mode!");
-				translationList.Add("Vanish_off_Private", "You have turned off the vanish mode!");
-				translationList.Add("god_on_console", " has turned on the god mode.");
-				translationList.Add("god_off_console", " has turned off the god mode.");
-				translationList.Add("vanish_on_console", " has turned on the vanish mode.");
-				translationList.Add("vanish_off_console", " has turned off the vanish mode.");
-				translationList.Add("players_godmode_turned_on", "God mode turned on for the player:");
-				translationList.Add("players_godmode_turned_off", "God mode turned off for the player:");
-				translationList.Add("players_vanishmode_turned_on", "Vanish mode turned on for the player:");
-				translationList.Add("players_vanishmode_turned_off", "Vanish mode turned off for the player:");
-				translationList.Add("your_vanishmode_turned_on", "Your vanish mode has been turned on.");
-				translationList.Add("your_vanishmode_turned_off", "Your vanish mode has been turned off.");
-				translationList.Add("your_godmode_turned_on", "Your god mode has been turned on.");
-				translationList.Add("your_godmode_turned_off", "Your god mode has been turned off.");
-				translationList.Add("global_players_godmode_turned_on", " turned on the godmode for the player: ");
-				translationList.Add("global_players_godmode_turned_off", "turned off the godmode for the player: ");
-				translationList.Add("global_players_vanishmode_turned_on", "turned on the vanishmode for the player: ");
-				translationList.Add("global_players_vanishmode_turned_off", "turned off the vanishmode for the player: ");
-				translationList.Add("usage_remotegod", "Usage: /RemoteGod");
-				translationList.Add("usage_remotevanish", "Usage: /RemoteVanish");
-				return translationList;
+                TranslationList translationList = new TranslationList
+                {
+                    { "Log_God_Turned_On", " has turned on the god mode for the player: " },
+                    { "Log_God_Turned_Off", " has turned off the god mode for the player: " },
+                    { "Log_Vanish_Turned_On", " has turned on the vanish mode for the player: " },
+                    { "Log_Vanish_Turned_Off", " has turned off the vanish mode for the player: " },
+                    { "God_on_Public", " has turned on the god mode." },
+                    { "God_off_Public", "  has turned off the god mode." },
+                    { "Vanish_on_Public", " has turned on the vanish mode." },
+                    { "Vanish_off_Public", " has turned off the vanish mode." },
+                    { "God_on_Private", "You have turned on the god mode!" },
+                    { "God_off_Private", "You have turned off the god mode!" },
+                    { "Vanish_on_Private", "You have turned on the vanish mode!" },
+                    { "Vanish_off_Private", "You have turned off the vanish mode!" },
+                    { "god_on_console", " has turned on the god mode." },
+                    { "god_off_console", " has turned off the god mode." },
+                    { "vanish_on_console", " has turned on the vanish mode." },
+                    { "vanish_off_console", " has turned off the vanish mode." },
+                    { "players_godmode_turned_on", "God mode turned on for the player:" },
+                    { "players_godmode_turned_off", "God mode turned off for the player:" },
+                    { "players_vanishmode_turned_on", "Vanish mode turned on for the player:" },
+                    { "players_vanishmode_turned_off", "Vanish mode turned off for the player:" },
+                    { "your_vanishmode_turned_on", "Your vanish mode has been turned on." },
+                    { "your_vanishmode_turned_off", "Your vanish mode has been turned off." },
+                    { "your_godmode_turned_on", "Your god mode has been turned on." },
+                    { "your_godmode_turned_off", "Your god mode has been turned off." },
+                    { "global_players_godmode_turned_on", " turned on the godmode for the player: " },
+                    { "global_players_godmode_turned_off", "turned off the godmode for the player: " },
+                    { "global_players_vanishmode_turned_on", "turned on the vanishmode for the player: " },
+                    { "global_players_vanishmode_turned_off", "turned off the vanishmode for the player: " },
+                    { "usage_remotegod", "Usage: /RemoteGod" },
+                    { "usage_remotevanish", "Usage: /RemoteVanish" }
+                };
+                return translationList;
 			}
 		}
 
